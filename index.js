@@ -280,4 +280,4 @@ function play(guild, song) {
     });
 }
 
-bot.login(TOKEN);
+bot.login(s);
