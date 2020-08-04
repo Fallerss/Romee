@@ -14,9 +14,6 @@ const bot = new Client({
     disableMentions: "all"
 });
 
-bot.on('ready', () => {
-  bot.user.setActivity('4help. | 4Fun', { type: 'PLAYING' });
-});
 
 
 const youtube = new YouTube(GOOGLE_API_KEY);
